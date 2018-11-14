@@ -10,5 +10,5 @@ while num < 0 or num > 20:	# loops until a valid number is entered
 year = datetime.datetime.now().year + 100 - age
 
 while num > 0:
-	print("Hi, " + name + "! You'll be 100 years old in " + str(year))
+	print("Hi, " + name + "! You'll be 100 years old in " + str(year) + ". Congrats!")
 	num -= 1
